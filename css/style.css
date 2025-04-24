@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/Gilroy/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../fonts/Gilroy/Gilroy-Regular.ttf);
+}
+header{
+    background: url(../images/Header-background.png) center no-repeat;
+    background-size: cover;
+    height: 150vh;
+    position: relative;
+}
+.container{
+    width: 85vw;
+    margin: auto;
+}
+.Navbar-Logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: Gilroy;
+}
+.links ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.links ul{
+   list-style-type: none;
+}
+.links ul li a{
+    font-family: Gilroy;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+nav{
+    display: grid;
+    grid-template-columns: 100px 1180px 50px;
+    align-items: center;
+    height: 80px;
+}
+.header-title-box label{
+    position: relative;
+    display: inline-block;
+     border: 0.5px solid #fff;
+     width: 344px;
+     height: 56px;
+     border-radius: 30px;
+}
+.header-title-box input {
+    background-color: rgba(143, 143, 143, 0.3);
+    width: 344px;
+    height: 56px;
+    border-radius: 30px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+}
+.header-title-box input::placeholder {
+    font-size: 18px;
+    color: #ffffff;
+    color: rgba(203, 202, 202, 0.874);
+}
+.header-form-img-box a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 12%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-title{
+    width: 861px;
+    text-align: center;
+    font-size: 75px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 130%;
+    margin: auto;
+    margin-top: 78px;
+    font-family: Gilroy;
+    user-select: none;
+}
+.header-desc{
+    width: 606px;
+    margin: auto;
+    color: #fff;
+    font-family: Gilroy-Regular;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0.7;
+    padding: 20px 0px 0px 0px;
+    line-height: 170%;
+}
+.Header-form-box{
+    text-align: center;
+    margin-top: 50px;
+}
+.ShopShow{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    z-index: 1;
+    right: 0;
+}
+.shop-box{
+    position: relative;
+    cursor: pointer;
+}
+.ShopIndexBox{
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+}
+.ShopIndex{
+    user-select: none;
+}
+.MainChoosingLuxuryTitle{
+    color: #000;
+    font-size: 30px;
+}
+.MainChoosingLuxuryTitle{
+    font-family: Gilroy;
+}
+.MainChoosingBoxs{
+    display: grid;
+    grid-template-columns: 350px 330px 330px 350px;
+    margin-top: 150px;
+    align-items: center;
+}
+.MainLuxuryDesc{
+    color: #1e1e1e;
+    font-family: Gilroy-Regular;
+    width: 284px;
+    line-height: 200%;
+    padding: 20px 0px;
+}
+.MainChoosingInfoBox{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+.MainChoosingTitle{
+    width: 242px;
+    font-family: Gilroy;
+    font-size: 40px;
+}
+.MainChoosingInfoTitle{
+    color: #E58411;
+    font-size: 18px;
+}
+.MainProductBoxs{
+    background-color: #F7F7F7;
+    height: 1440px;
+    margin-top: 170px;
+}
+.MainProductTitle{
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+}
+.MainProductListBox{
+    background-color: #EEEEEE;
+    width: 348px;
+    height: 57px;
+    border-radius: 40px;
+    display: flex;
+    padding: 15px 20px;
+    gap: 25px;
+    margin-top: 50px;
+    margin-inline: auto;
+}
+.active{
+    width: 84px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+}
+.MainProductListTitle{
+    color: #1E1E1E;
+    font-size: 20px;
+    font-family: Gilroy-Regular;
+}
