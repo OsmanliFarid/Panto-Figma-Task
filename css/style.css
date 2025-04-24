@@ -211,3 +211,31 @@ nav{
     font-size: 20px;
     font-family: Gilroy-Regular;
 }
+.MainProductListGarder{
+    margin-top: 100px;
+}
+.MainProductChairBox{
+    width: 268px;
+    height: 492px;
+    background: rgba(243, 242, 242, 0.3);
+    border-radius: 30px;
+}
+.MainProductChairBox2{
+    width: 268px;
+    height: 203px;
+    background-color: #fff;
+}
+.MainProductListGarder{
+    display: flex;
+    align-items: center;
+    
+}
+.img3{
+    width: 217px;
+    height: 255px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.MainProductChairBox3{
+    cursor: pointer;
+}
